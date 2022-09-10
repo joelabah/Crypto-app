@@ -1,0 +1,380 @@
+body {
+        font-family: Rubik, sans-serif;
+}
+
+.section-five {
+    background: #ffffff;
+    padding-top: 6rem;
+    width: 100%;
+}
+
+.section-five h2 {
+    font-weight: 700;
+    width: 90%;
+    margin: auto; 
+    font-size: 1.4rem;
+    line-height: 3.7rem;
+    color: rgba(0, 0, 0, 0.841);
+}
+
+.section-five-flex {
+    display: flex;
+}
+
+
+.section-five-flex article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #fff; */
+    border-radius: 1rem;
+    padding: 2.6rem;
+    box-shadow: 0 40px 40px #391777;
+    margin: 1.4rem 0;
+}
+
+.section-five-flex i {
+    font-size: 2.4rem;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #F9AA4B -0.02%, #F7931A 99.99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+footer .crappo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    justify-content: flex-start;
+}
+
+.crappo h3 {
+    margin-left: .8rem;
+}
+
+.footer {
+    font-size: 1.3rem;
+    margin-top: 2.9rem;
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div i {
+    font-size: 5rem;
+    margin-top: 1.3rem;
+}
+
+footer .anchors {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.copy {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+}
+
+.copy i:hover {
+    color: #3671E9;
+}
+
+.copy i {
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+.anchors a {
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 1em;
+}
+
+.anchors a:hover {
+    color: #3671E9;
+}
+
+
+
+
+
+
+.two i {
+    background: #1181E8;
+}
+
+.three i {
+    background: #59C19C;
+}
+
+.section-five-flex h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+    /* color: rgba(0, 0, 0, 0.909); */
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* .one h2, .one p, .two h2, .two p, .three p, .three h2 {
+    color: #fff;
+} */
+
+
+.section-six-text {
+    padding: 1rem;
+}
+
+.section-five h2 span {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: .5em;
+    color: #bdbdbd;
+}
+
+
+
+.section-six-div {
+    display: flex;
+    padding: 3rem;
+}
+
+.section-six-div h2 {
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 150%;
+    color: #ffffff;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 1.3rem;
+}
+
+.section-six .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 3rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.section-six-div p {
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    margin-top: 1rem;
+}
+
+
+.section-six-div button {
+        background: #3671e9;
+        border-radius: 2rem;
+        padding: 0.8rem 2rem;
+        font-family: Rubik, sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #fff;
+        border: none;
+        margin-top: 1em;
+}
+
+.section-six {
+    background: #2b076e;
+}
+
+.section-six img {
+    width: 100%;
+}
+
+
+
+.section-five-flex p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.65rem;
+    /* color: rgba(0, 0, 0, 0.774); */
+}
+
+footer .crappo {
+    color: #fff;
+    display: flex;
+}
+
+.section-five-flex button i {
+    font-size: small;
+    height: 3rem;
+    width: 3rem;
+        background: transparent;
+}
+
+
+
+.section-five-flex .button {
+    border-radius: 50%;
+    border:  2px solid rgba(15, 8, 29, 0.2);
+    margin-top: 1.5rem;
+    background: #1181E8;
+}
+
+.mann {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: .6rem;
+    background: transparent;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    background: #3671E9;
+    border: none;
+}
+
+.man {
+    background: #2B076E;
+    backdrop-filter: blur(250px);
+    color: #fff;
+}
+
+
+@media (min-width: 20px) and (max-width: 1000px) {
+    .section-five-flex {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .copy {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .section-six-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-six-text {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-six-div {
+        flex-direction: column;
+    }
+
+    .omo {
+        flex-direction: column-reverse;
+    }
+}
+
+.mining  {
+    padding: 1.3rem;
+    background: #1181E8;
+    width: 80%;
+    margin: auto;
+    margin-top: 6rem;
+    border-radius: 2rem;
+}
+
+.mining button {
+        background: #fff;
+        border-radius: 2rem;
+        padding: 0.8rem 2rem;
+        font-family: Rubik, sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        border: none;
+        margin-top: 1em;
+        margin: 2rem;
+}
+
+.mining h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.mining p {
+    color: #fff;
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.mining input {
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #e0e0e0;
+
+}
+
+.mining input::placeholder {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.542);
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .section-five-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1.3rem;
+    }
+
+    .section-six-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-five-flex article {
+        width: 30%;
+        margin: 1.3rem;
+    }
+
+    .section-six-text {
+        width: 80%;
+        padding: 1.5rem;
+    }
+}
